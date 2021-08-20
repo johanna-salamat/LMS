@@ -1,0 +1,191 @@
+
+/*Roboto*/
+@font-face {
+	font-family: RobotoRegular;
+	src: url(../fonts/Roboto/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+	font-family: RobotoBold;
+	src: url(../fonts/Roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+	font-family: RobotoBoldItalic;
+	src: url(../fonts/Roboto/RobotoCondensed-BoldItalic);
+}
+@font-face {
+	font-family: RobotoItalic;
+	src: url(../fonts/Roboto/RobotoCondensed-Italic.ttf);
+}
+@font-face {
+	font-family: RobotoLight;
+	src: url(../fonts/Roboto/RobotoCondensed-Light.ttf);
+}
+@font-face {
+	font-family: RobotoLightItalic;
+	src: url(../fonts/Roboto/RobotoCondensed-LightItalic.ttf);
+}
+
+/**/
+body {
+	font-family: RobotoRegular;
+	background-color: #fafafa;
+}
+/*Main*/
+.main {
+	display: flex;
+  flex-direction: column;
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+/*Main header*/
+.main-header {
+	position: relative;
+	background-color: white;
+}
+.main-header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 1px 2px rgba(35, 31, 32, 0.3);
+}
+.main-header .navbar-nav .nav-link { color: #3f666a; }
+.header-logo { max-width: 40px; }
+.header-link { cursor: pointer; }
+.header-btn-login {
+	color: white;
+	font-family: RobotoBold;
+}
+.header-btn-login:hover {
+	color: white !important;
+	transition: 0.2s all ease-in-out;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+/*Modal login*/
+.modal-login h5 {
+	color: #325458;
+	font-family: RobotoBold;
+}
+.modal-login img {
+	display: block;
+	height: 30px;
+	margin: 0 auto 10px;
+}
+.modal-login-send {
+	color: white;
+	background-color: #bb4430;
+}
+.modal-login-send:hover {
+	color: white !important;
+	transition: 0.2s all ease-in-out;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*Main content*/
+.main-content {
+	flex: 1 0 0;
+}
+/*Main footer*/
+.main-footer {
+	color: #ddd;
+	background-color: #393536;
+}
+.footer-socials {
+	padding-top: 14px;
+}
+.footer-socials a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 4px;
+}
+/*koala bank*/
+.k-subtitle {
+	line-height: 1.2;
+	font-size: 2rem;
+}
+.btn-main {
+	background-color: #58898d;
+	color: white;
+	transition: .2s all ease-in-out;
+}
+.btn-main:hover {
+	color: #ddd;
+}
+/**/
+.u-position-rel {
+	position: relative;
+}
+.u-black-text {
+	color: #000;
+}
+.u-color-md {
+	color: #747373;
+}
+.u-font-bold {
+	font-family: RobotoBold;
+}
+/*Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>*/
+
+.navbar-green {
+	background-color: #3f666a;
+	
+}
+
+.nav-link-sub {
+	color: #fff;
+}
+
+.nav-link-sub {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link-sub:hover, .nav-link-sub:focus {
+  background-color: #bb4430;
+  color: #fff;
+}
+
+.nav-item a:hover {
+	text-decoration: none;
+}
+
+.inline {
+	float: left;
+    width: 200px;
+	height: 30px;
+	margin: 1em;
+}

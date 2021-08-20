@@ -1,0 +1,54 @@
+.loginContainer
+{
+margin-top: 5%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#error_message
+{
+	color: red;
+}
+
+.fill
+{
+	min-height: 100%;
+}
+
+.profile-grid
+{
+	margin-top: 10px;
+}
+
+.services-grid
+{
+	margin: 2px 2px 2px 2px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	font-size: 1rem;
+	display: block;
+	align: center;
+}
+
+.services-grid:hover
+{
+	background-color: rgba(0, 0, 0, 0.125);
+}
+
+.center
+{
+	width: 50px;
+	margin: 40px auto;  
+}
+
+span.input-group-btn
+{
+	width: 50%;
+}
+
+.btn-transparent
+{
+	background-color: white;
+	border: 0 none;
+	width: 30px;
+	font-size: 20px;
+}

@@ -1,0 +1,174 @@
+
+/*Styles user dashboard*/
+.user {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	height: 100vh;
+}
+.user-header {
+	position: relative;
+	padding: 6px 10px;
+	text-align: right;
+	background-color: white;
+}
+.user-header::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	box-shadow: 0 1px 2px rgba(35, 31, 32, 0.3);
+}
+.user-header-nameuser {
+	background-image: url("../img/logo-koala.svg");
+	background-size: 36px auto;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.user-header-nameuser button {
+  color: #bb4430;
+  font-family: RobotoBold;
+  margin-left: 10px;
+	transition: 0.2s all ease-in-out;
+}
+.user-header-nameuser button:hover {
+	color: #bb4430;
+	opacity: 0.8;
+}
+.user-dash {
+	display: flex;
+	flex: auto;
+}
+
+/*Aside*/
+.user-aside {
+	min-width: 150px;
+	background-color: #393536;
+	box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.3);
+}
+.user-aside ul {
+	list-style: none;
+	padding: 0;
+  margin: 0;
+}
+.user-aside li {
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 20px;
+	transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+.user-aside li:hover {
+  color: white;
+}
+.user-aside li.active {
+	color: white;
+	font-family: RobotoBold;
+}
+.user-aside i {
+	margin-right: 2px;
+}
+
+/*content*/
+.user-content {
+	flex: auto;
+	padding: 16px 20px;
+	overflow-x: auto;
+}
+
+/*sections*/
+.user-section {
+	display: flex;
+	flex-direction: column;
+}
+.user-section-subtitle {
+	border-bottom: 2px solid #7ebdc2;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.user-section-box {
+	border-radius: 6px;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0px 0px 4px 0px #999;
+}
+.user-section-box-2 {
+	border-radius: 6px;
+	border: 2px solid #58898d;
+	padding: 16px;
+	background-color: white;
+}
+.user-section .nav-pills .nav-link {
+	color: #58898d;
+}
+.user-section .nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #58898d;
+  font-weight: 600;
+  border-radius: .25rem .25rem 0 0;
+}
+/*account section*/
+.account-box {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: auto;
+	align-items: center;
+}
+.account-box-bank {
+	width: 50%;
+	text-align: center;
+}
+.account-box-data {
+	width: 50%;
+}
+.account-box-data li {
+	margin-bottom: 8px;
+	line-height: 18px;
+}
+.account-box-data .data-type {
+	font-family: RobotoBold;
+}
+.account-box-data .data-value {
+	color: #747373;
+	font-family: RobotoItalic;
+}
+.account-box-button {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	border-top: 1px solid #efe6dd;
+}
+.account-box-button h3 {
+  color: #bb4430;
+  font-family: RobotoBold;
+}
+.account-box-button h4 {
+  margin-bottom: 0;
+}
+/*transactions*/
+.transactions label {
+	margin-top: .5rem;
+}
+.transactions row {
+	margin-bottom: 8px;
+}
+/*elements*/
+.user ul {
+	list-style: none;
+}
+/*Media queries*/
+@media (max-width: 575.98px) {
+	.user-dash { flex-direction: column; }
+	.account-box {
+		flex-direction: column;
+		margin: 0;
+		text-align: center;
+	}
+	.account-box-bank, .account-box-data { width: auto; }
+	.account-box-data { margin-top: 10px; }
+	.account-box-data ul { padding-left: 0; }
+}

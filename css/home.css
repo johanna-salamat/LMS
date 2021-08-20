@@ -1,0 +1,70 @@
+
+
+/*Home*/
+.home-carou-img {
+	width: 100%;
+	padding-bottom: 50%;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.home .carousel-caption h4 {
+	font-family: RobotoBold;
+	color: #bb4430;
+}
+.home .carousel-caption p {
+	font-family: RobotoBold;
+}
+.home-services-cards .card{
+	max-width: 22rem;
+	font-weight: 400;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.home-services-cards .card-wrap, .home-accounts-cards .card-wrap {
+	margin-bottom: 20px;
+}
+.home-services-cards .card-img-top {
+	width: 100%;
+	padding-bottom: 62%;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.home-services-cards .card-text, .home-accounts-cards .card-text {
+	color: #747373;
+}
+.home-services-cards h4,
+.home-services-cards h5,
+.home-accounts-cards h4,
+.home-accounts-cards h5 {
+	color: #bb4430;
+}
+.home-services-cards .card-btn-go, .home-accounts-cards .card-btn-go {
+	color: #000;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.card-account{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.txn-card-label {
+	color: #bb4430;
+}

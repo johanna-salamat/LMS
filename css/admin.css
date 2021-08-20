@@ -1,0 +1,130 @@
+
+/* === Styles user dashboard === */
+.admin {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	height: 100vh;
+}
+.admin-header {
+	position: relative;
+	padding: 6px 10px;
+	text-align: right;
+	background-color: white;
+}
+.admin-header::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	box-shadow: 0 1px 2px rgba(35, 31, 32, 0.3);
+}
+.admin-header-nameuser {
+	background-image: url("../img/logo-koala.svg");
+	background-size: 36px auto;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.admin-header-nameuser button {
+  color: #bb4430;
+  font-family: RobotoBold;
+  margin-left: 10px;
+	transition: 0.2s all ease-in-out;
+}
+.admin-header-nameuser button:hover {
+	color: #bb4430;
+	opacity: 0.8;
+}
+.admin-dash {
+	display: flex;
+	flex: auto;
+}
+/*Aside*/
+.admin-aside {
+	min-width: 150px;
+	background-color: #393536;
+	box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.3);
+}
+.admin-aside ul {
+	list-style: none;
+	padding: 0;
+  margin: 0;
+}
+.admin-aside li {
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 20px;
+	transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+.admin-aside li:hover {
+  color: white;
+}
+.admin-aside li.active {
+	color: white;
+	font-family: RobotoBold;
+}
+.admin-aside i {
+	margin-right: 2px;
+}
+/*content*/
+.admin-content {
+	flex: auto;
+	padding: 16px 20px;
+	overflow-x: auto;
+}
+/*sections*/
+.admin-section {
+	display: flex;
+	flex-direction: column;
+}
+.admin-section-subtitle {
+	border-bottom: 2px solid #7ebdc2;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.admin-section-box {
+	border-radius: 6px;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0px 0px 4px 0px #999;
+}
+.admin-section-box-2 {
+	border-radius: 6px;
+	border: 2px solid #58898d;
+	padding: 16px;
+	background-color: white;
+}
+/*Clients*/
+.clients-btn-add {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.clients .icon-pencil {
+	color: #7ebdc2;
+	cursor: pointer;
+}
+.clients .icon-trash-3 {
+	color: #393536;
+	cursor: pointer;
+}
+/*elements*/
+.admin ul {
+	list-style: none;
+}
+.btn-main {
+	background-color: #58898d;
+	color: white;
+	transition: .2s all ease-in-out;
+}
+.btn-main:hover {
+	color: #ddd;
+}
+/*Media queries*/
+@media (max-width: 575.98px) {
+	.admin-dash { flex-direction: column; }
+}

@@ -1,0 +1,90 @@
+body form {
+    width: 65%;
+    margin: 0px auto;
+    border: 0.5px #7a7a7a solid;
+}
+
+body form table {
+    margin: 0px auto;
+    text-align: center;
+    border-color: #006dcc;
+	border: 0.5px #7a7a7a solid;
+}
+
+.topdiv {
+    height: 200px;
+    background-image: url(../image/index-top11.png);
+    width: 65%;
+    margin: -10px auto;
+    text-align: center;
+    border: 0.5px #7a7a7a solid;
+}
+
+.navigation {
+    width: 65%;
+    margin: 0px auto;
+    border: 0.5px #7a7a7a solid;
+}
+
+.navigation_left {
+    float: left;
+    margin: auto 0px;
+    width: 15%;
+    height: 20px;
+    text-align: center;
+    background-color: #00fdcc;
+}
+
+.navigation_right {
+    float: right;
+    padding: 0px;
+    margin: 0px auto;
+    width: 85%;
+    height: 20px;
+    background-color: #00adcc;
+}
+
+.navigation_right ul li {
+    margin: 0px auto;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation_right ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation_right ul li a:hover {
+    color: #ffab3f;
+}
+
+.navigation_right ul li ul {
+    position: absolute;
+    padding: 0px;
+    display: none;
+    border: 1px black solid;
+}
+
+.navigation_right ul li ul li {
+    float: none;
+    background-color: #eee;
+}
+
+.navigation_right ul li ul li a {
+    text-decoration: none;
+    color: #006dcc;
+}
+
+.navigation_right ul li ul li a:hover {
+    color: #ffab3f;
+}
+
+.content_top {
+    background-image: url(../image/content_top.jpg);
+    margin-top: 20px;
+    height: 37px;
+}
